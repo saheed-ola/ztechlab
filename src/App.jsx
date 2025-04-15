@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/hero";
+// import Hero from "./components/hero/hero";
 import Services from "./components/services/Services";
 import Products from "./components/products/Products";
 import Training from "./components/training/Training";
@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
+import Hero2 from "./components/hero/Hero2";
 // import { RiStarFill } from "react-icons/ri";
 
 export const reviews = [
@@ -55,7 +56,7 @@ function App() {
       <div className="w-full bg-[#c0c0c0] h-auto text-white">
         <Navbar />
         <div className="max-w-screen-2xl mx-auto">
-          <Hero />
+          <Hero2 />
           <About />                                                                                       
           <Services />
           <Products />
