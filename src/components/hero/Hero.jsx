@@ -40,6 +40,15 @@ const Hero = () => {
         
     </section>
   )
+  /* <div className='min-h-screen flex gap-12 justify-center items-center'>
+    <div className='w-[200px] h-[200px] rounded-2xl rotate-45 overflow-hidden shadow-yellow-400/50 shadow-xl'>
+        <img className='-rotate-45 scale-100 ' src={TechBrained} alt="" />
+    </div>
+    <div className='w-[200px] h-[200px] rounded-2xl rotate-45 overflow-hidden shadow-cyan-400/50 shadow-xl'>
+        <img className='-rotate-45 scale-100 ' src={TechBrained} alt="" />
+    </div>
+  </div>
+  <br /> */
 }
 
 export default Hero

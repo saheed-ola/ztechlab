@@ -27,7 +27,35 @@ export const reviews = [
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
   },
   {
+    picture: "/img/stock.jpg", 
+    oruko: "Micheal Daniel", 
+    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    statement:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+  },
+  {
     picture: "/img/stock.jpg",
+    oruko: "Adetayo Shobayo", 
+    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    statement:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+  },
+  {
+    picture: "/img/stock.jpg", 
+    oruko: "Micheal Daniel", 
+    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    statement:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+  },
+  {
+    picture: "/img/stock.jpg",
+    oruko: "Adetayo Shobayo", 
+    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    statement:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+  },
+  {
+    picture: "/img/stock.jpg", 
     oruko: "Micheal Daniel", 
     positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
     statement:

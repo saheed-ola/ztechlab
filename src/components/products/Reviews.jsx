@@ -1,30 +1,43 @@
-import React from "react";
-import { RiStarFill } from "react-icons/ri";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { reviews } from "../../App";
 import TopTitle from "../TopTitle";
+import { RiStarFill } from "react-icons/ri";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+import { useEffect, useState } from "react";
 
+const Reviews = () =>{
 
-const Reviews = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-  };
+    const [api, setApi] = useState()
+  const [current, setCurrent] = useState(0)
+  const [count, setCount] = useState(0)
+ 
+  useEffect(() => {
+    if (!api) {
+      return
+    }
+ 
+    setCount(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap() + 1)
+ 
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1)
+    })
+  }, [api])
+
 
   return (
-    <div className="">
-      <TopTitle heading="Reviews" />
-      <div className="">
-      <Slider {...settings}>
+    <>
+    <TopTitle heading="Reviews" />
+    <Carousel plugins={[
+        Autoplay({
+          delay: 3000,
+        }),
+      ]} setApi={setApi} className="w-full ">
+      <CarouselContent>
         {reviews.map((r, index) => (
+          <CarouselItem key={index} className='md:basis-1/2 lg:basis-1/3'>
           <div
-            key={index}
-            className=" bg-white rounded-lg shadow-xl p-4 lgl:p-8 flex flex-col justify-center items-center relative gap-4 lgl:gap-8 "
+            className={`${current === index && "drop-shadow-md shadow-amber-200"} bg-white rounded-lg shadow-xl p-4 lgl:p-8 flex flex-col justify-center items-center relative gap-4 lgl:gap-8`}
           >
             <div className="w-full flex items-center justify-center">
 
@@ -51,11 +64,22 @@ const Reviews = () => {
             </div>
             <p className="text-black">{r.statement}</p>
           </div>
+        </CarouselItem>
         ))}
-      </Slider>
+      </CarouselContent>
+      <div className="hidden lg:block">
+        <CarouselPrevious />
+        <CarouselNext />
       </div>
-    </div>
-  );
-};
+    </Carousel>
 
-export default Reviews;
+    <div className="flex gap-2 w-full items-center justify-center pt-10">
+      {Array.from({ length: count }).map((_, index) => (
+        <div key={index} className={`${current === index + 1 ? "bg-slate-300" : "bg-slate-500" } bg-slate-500 transition-all duration-1000 ease-in-out w-2 h-2 rounded-full`}/>
+      ))}
+    </div>
+    </>
+  )
+}
+
+export default Reviews

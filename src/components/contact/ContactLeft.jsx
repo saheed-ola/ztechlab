@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const ContactLeft = () => {
   return (
-    <div className='w-[35%] h-full bg-white p-8 shadow-2xl border-[3px] flex flex-col rounded-2xl gap-8 justify-center'>
+    <div className='w-[35%] h-full bg-white p-8 shadow-2xl border-[3px] flex flex-col rounded-2xl gap-8 justify-center' data-aos="fade-right">
             <img className='w-full h-64 object-cover rounded-lg mb-2'
                 src= {contactImg} alt="Contact Img" 
                 />

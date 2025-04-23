@@ -69,20 +69,11 @@ function Contact() {
       <TopTitle 
       heading = "Contact"
       />
-      {/* <div className="relative flex justify-center flex-col items-center mb-10">
-                <div variant="2" className="text-4xl leading-normal mb-4 text-blue-700">CONTACT US</div>
-                <div className="border-b-4 border-yellow-500 w-[80px] -mt-4"></div>
-            </div> */}
-      <div className='flex justify-center items-center text-center'>
-                {/* <Title
-                title = "CONTACT"
-                des = "CONNECT WITH ME"/> */}
-            </div>
       <div className='w-[90%] mx-auto '>
         <div className='w-full h-auto flex justify-between'>
          
           <ContactLeft />
-          <div className='w-[60%] h-full py-10 bg-white p-8 shadow-2xl border-[3px] flex flex-col gap-8 rounded-lg justify-center'>
+          <div className='w-[60%] h-full py-10 bg-white p-8 shadow-2xl border-[3px] flex flex-col gap-8 rounded-lg justify-center' data-aos="fade-left">
             <form className='w-full flex flex-col gap-6 py-5 '>
               {errMsg && <p className='py-3 bg-black shadow-red-400 text-center text-red-500 text-base tracking-wide animate-bounce'>{errMsg}</p>}
               {successMsg && <p className='py-3 bg-green-700 shadow-red-400 text-center text-white text-base tracking-wide animate-bounce'>{successMsg}</p>}

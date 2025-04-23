@@ -15,10 +15,10 @@ const Footer = () => {
             </div>
         </div>
         <div className='w-full h-full'>
-            <h3 className='text-xl uppercase text-designColor tracking-wider'>
+            <h3 className='text-xl uppercase text-designColor tracking-wider' data-aos="fade-down">
                 Quick Link  
             </h3>
-            <ul className='flex flex-col gap-4 font-titleFont font-medium py-4 overflow-hidden'>
+            <ul className='flex flex-col gap-4 font-titleFont font-medium py-4 overflow-hidden' data-aos="fade-up">
                 <li><span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer group'>About <span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 -translate-x-[100%] left-0 group-hover:translate-x-0  transition-transform duration-300'></span> 
                 </span>
               </li>  
@@ -37,10 +37,10 @@ const Footer = () => {
             </ul>
         </div>
         <div className='w-full h-full'>
-        <h3 className='text-xl uppercase text-designColor tracking-wider'>
+        <h3 className='text-xl uppercase text-designColor tracking-wider' data-aos="fade-down">
                 resources  
             </h3>
-            <ul className='flex flex-col gap-4 font-titleFont font-medium py-4 overflow-hidden'>
+            <ul className='flex flex-col gap-4 font-titleFont font-medium py-4 overflow-hidden' data-aos="fade-up">
                 <li><span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer group'>Authentication<span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 -translate-x-[100%] left-0 group-hover:translate-x-0  transition-transform duration-300'></span> 
                 </span>
               </li> 
@@ -59,11 +59,11 @@ const Footer = () => {
             </ul>
         </div>
         <div className='w-full h-full'>
-        <h3 className='text-xl uppercase text-designColor tracking-wider'>
+        <h3 className='text-xl uppercase text-designColor tracking-wider' data-aos="fade-down">
                 developers  
             </h3>
-            <ul className='flex flex-col gap-4 font-titleFont font-medium py-4 overflow-hidden'>
-                <li><span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer group'>Documenetation<span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 -translate-x-[100%] left-0 group-hover:translate-x-0  transition-transform duration-300'></span> 
+            <ul className='flex flex-col gap-4 font-titleFont font-medium py-4 overflow-hidden' data-aos="fade-up">
+                <li><span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer group'>Documentation<span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 -translate-x-[100%] left-0 group-hover:translate-x-0  transition-transform duration-300'></span> 
                 </span>
               </li> 
               <li><span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer group'>Authentication<span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 -translate-x-[100%] left-0 group-hover:translate-x-0  transition-transform duration-300'></span> 
