@@ -87,20 +87,17 @@ export default {
   	},
   	screens: {
   		xs: '320px',
-  		sm: '375px',
-  		sml: '500px',
-  		md: '667px',
-  		lg: '960px',
-  		lgl: '1024px',
-  		xl: '1280px'
+  		sm:	'640px', 
+  		md: '768px',
+  		lg: '1024px',
+  		
   	}
   },
   plugins: [require("tailwindcss-animate")],
 }
 
 // @theme {
-//   --breakpoint-landscape: 640px;
-//   --breakpoint-tablet: 768px;
-//   --breakpoint-laptop: 1024px;
-
+//   --breakpoint-landscape: 640px; sm
+//   --breakpoint-tablet: 768px; md
+//   --breakpoint-laptop: 1024px; lg
 // }

@@ -94,9 +94,7 @@
 // export default About;
 
 // // bg-[url[(/img/hero-pattern.jpg)]]
-
 // // bg-clip-text
-
 // // text-transparent
 
 import React from "react";
@@ -142,7 +140,7 @@ const About = () => {
       {/* Mission & Vision Section */}
       <div className="flex flex-col gap-8 md:gap-12 mt-8 sm:mt-12 md:mt-16">
         {/* Mission */}
-        <div className="flex flex-col md:flex-row justify-between gap-6 sm:gap-8">
+        <div className="flex flex-col-reverse md:flex-row justify-between gap-6 sm:gap-8">
           <div className="w-full md:w-3/5 flex justify-center items-center order-2 md:order-1">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl bg-clip-text text-transparent bg-shade font-extrabold text-center md:text-left" 
                 data-aos="fade-right">
