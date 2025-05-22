@@ -81,7 +81,7 @@ function App() {
   ];
   return (
     <>
-      <div className="w-full bg-[#c0c0c0] h-auto text-white">
+      <div className="w-full bg-[#c0c0c0] h-auto text-white overflow-hidden">
         <Navbar />
         <div className="max-w-screen-2xl mx-auto">
           <Hero2 />
