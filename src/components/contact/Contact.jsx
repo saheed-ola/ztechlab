@@ -132,7 +132,7 @@ function Contact() {
                 <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={`contactTextArea border-2 md:border-[3px] text-sm md:text-base ${
                     errMsg === "Your phone number is required" ? 'border-red-500' : 'border-gray-300'
                   }`} 
-                  cols="30" 
+                  cols="30"  
                   rows='"4 md:rows="6"'></textarea>
               </div>
               <div className='w-full'>

@@ -69,37 +69,37 @@ const Services = () => {
           <ServiceCard
               src={mobile}
               title="Mobile App Development"
-              des="Develop IoT-enabled mobile apps for seamless interaction with smart devices..."
+              des="Develop IoT-enabled mobile apps for seamless interaction with smart devices, providing real-time monitoring, remote control, and analytics on both Android and iOS."
           />
 
           <ServiceCard
               src={backend}
               title="Backend Development"
-              des="Build secure and scalable backends for IoT ecosystems..."
+              des="Build secure and scalable backends for IoT ecosystems, ensuring smooth communication between devices and cloud infrastructure for real-time updates."
           />
 
           <ServiceCard
               src={AI}
               title="Artificial Intelligence solution"
-              des="Integrate AI and machine learning into IoT systems..."
+              des="Integrate AI and machine learning into IoT systems for automation, predictive maintenance, and smart decision-making to enhance operational efficiency."
           />
 
           <ServiceCard
               src={embeded}
               title="Embedded System Development"
-              des="Design and develop embedded systems to power IoT devices..."
+              des="Design and develop embedded systems to power IoT devices, ensuring efficiency, performance, and reliable connectivity in various environments."
           />
 
           <ServiceCard
               src={IOT}
               title="Internet of things (IOT) solution"
-              des="We Offer end-to-end IoT solutions..."
+              des="We Offer end-to-end IoT solutions, from device connectivity and sensor integration to cloud analytics, ensuring smarter, more efficient operations across various industries."
           />
 
           <ServiceCard
               src={desktop}
               title="Desktop App Development"
-              des="Create cross-platform desktop applications..."
+              des="Create cross-platform desktop applications that offer intuitive control over IoT networks, enabling users to monitor devices and access data analytics effortlessly."
           />
       </div>     
     </section>

@@ -116,7 +116,7 @@ const About = () => {
       {/* Hero Section */}
       <div className="w-full h-[300px] sml:h-[400px] md:h-[500px] bg-smile bg-cover bg-center bg-no-repeat flex flex-col justify-between">
         <div 
-          className="text-white font-extrabold text-xl sml:text-2xl md:text-3xl bg-gray-600 bg-opacity-70 w-full xs:w-[70%] sm:w-[60%] md:w-[50%] h-[12%] sm:h-[10%] rounded-br-xl sm:rounded-br-2xl md:rounded-br-3xl flex justify-center items-center py-4 sm:py-6 md:py-10"
+          className="text-white mx-auto font-extrabold text-xl sml:text-2xl md:text-3xl bg-black bg-opacity-70 w-full xs:w-[70%] sm:w-[60%] md:w-[50%] h-[12%] sm:h-[10%] flex justify-center items-center py-4 sm:py-6 md:py-10"
           data-aos="fade-right"
         >
           <p>Who we are</p>
