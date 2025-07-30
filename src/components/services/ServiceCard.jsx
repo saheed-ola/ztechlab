@@ -21,10 +21,12 @@
 
 // ServiceCard.jsx
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // ServiceCard.jsx
-const ServiceCard = ({ title, des, src }) => {
+const ServiceCard = ({ title, des, src, link }) => {
     return (
+      <Link to={`/services/${link}`}>
       <div className='w-full h-full flex flex-col max-w-[95%] xs:max-w-[400px] mx-auto px-4 xs:px-6 sml:px-8 md:px-10 py-6 md:py-8 lg:py-10 rounded-lg border shadow-lg sml:shadow-xl md:shadow-2xl shadow-cyan-800/50 hover:shadow-cyan-800 transition-all duration-300'>
         {/* Image Container */}
         <div className='w-full h-[160px] xs:h-[180px] sml:h-[200px] md:h-[220px] overflow-hidden rounded-lg'>
@@ -45,6 +47,7 @@ const ServiceCard = ({ title, des, src }) => {
           </p>
         </div>
       </div>
+      </Link>
     )
   }
 

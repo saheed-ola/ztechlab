@@ -69,36 +69,42 @@ const Services = () => {
           <ServiceCard
               src={mobile}
               title="Mobile App Development"
+              link="mobile-app-development"
               des="Develop IoT-enabled mobile apps for seamless interaction with smart devices, providing real-time monitoring, remote control, and analytics on both Android and iOS."
           />
 
           <ServiceCard
               src={backend}
               title="Backend Development"
+              link="backend-development"
               des="Build secure and scalable backends for IoT ecosystems, ensuring smooth communication between devices and cloud infrastructure for real-time updates."
           />
 
           <ServiceCard
               src={AI}
               title="Artificial Intelligence solution"
+              link="artificial-intelligence-solution"
               des="Integrate AI and machine learning into IoT systems for automation, predictive maintenance, and smart decision-making to enhance operational efficiency."
           />
 
           <ServiceCard
               src={embeded}
               title="Embedded System Development"
+              link="embedded-system-development"
               des="Design and develop embedded systems to power IoT devices, ensuring efficiency, performance, and reliable connectivity in various environments."
           />
 
           <ServiceCard
               src={IOT}
               title="Internet of things (IOT) solution"
+              link="internet-of-things"
               des="We Offer end-to-end IoT solutions, from device connectivity and sensor integration to cloud analytics, ensuring smarter, more efficient operations across various industries."
           />
 
           <ServiceCard
               src={desktop}
               title="Desktop App Development"
+              link="desktop-app-development"
               des="Create cross-platform desktop applications that offer intuitive control over IoT networks, enabling users to monitor devices and access data analytics effortlessly."
           />
       </div>     

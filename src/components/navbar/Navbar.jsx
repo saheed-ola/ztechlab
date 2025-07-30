@@ -179,7 +179,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="fixed inset-0 z-40 bg-black bg-opacity-50 lg:hidden" onClick={() => setIsOpen(false)}>
           <div 
-            className="absolute right-0 top-full w-full max-w-sm bg-[#444444] h-[calc(100vh-4rem)] md:h-[calc(100vh-5rem)] p-6 border-l border-gray-600"
+            className="fixed right-0 top-0 w-4/5 max-w-xs h-full bg-[#444444] p-6 border-l border-gray-600"
             onClick={(e) => e.stopPropagation()}
           >
             <ul className="flex flex-col gap-4 md:gap-6">

@@ -49,7 +49,7 @@ function Contact() {
  
 
     try {
-      const res = axios.post('https://ztechlabs-server.vercel.app/send', { userName, phoneNumber, email, subject, message })
+      const res = axios.post('https://ztechlabs-server.onrender.com/send', { userName, phoneNumber, email, subject, message })
       console.log(res)
     } catch (error) {
       console.log(error.message)
