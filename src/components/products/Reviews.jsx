@@ -8,59 +8,45 @@ import TopTitle from "../TopTitle";
 export const reviews = [
   {
     picture: "/img/stock.jpg",
-    oruko: "Oluwole Zaccheous", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    oruko: "Angela Wells", 
+    positon: "Senior Lecturer, City University of Seattle, USA",
     statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!",
+      "ZTech Labs is doing an excellent job of bridging the gap between IoT concepts and practical applications. Their projects demonstrate both innovation and real-world relevance, making them a valuable contributor to the global IoT space.",
   },
   {
     picture: "/img/stock.jpg",
-    oruko: "Victoria Omotan", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    oruko: "Dr. Oluwaseun Martins", 
+    positon: "Senior Lecturer, Mechatronics Engineering, Federal University Oye Ekiti, Nigeria.",
     statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+      "ZTech Labs’ work in IoT and embedded systems is both inspiring and technically sound. Their projects show a high level of expertise and provide valuable insights for advancing engineering practice.",
   },
   {
     picture: "/img/stock.jpg", 
-    oruko: "Micheal Daniel", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    oruko: "Moshood Yahaya", 
+    positon: "Lead ML/AI, Guided e-Learning, United Kingdom",
     statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+      "The depth and clarity of ZTech Labs’ work in IoT and intelligent systems is remarkable. Their solutions show how creativity and technical expertise can combine to solve meaningful problems.",
   },
   {
     picture: "/img/stock.jpg",
-    oruko: "Adetayo Shobayo", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    oruko: "Samuel Obiagba", 
+    positon: "Roboticist & Backend Engineer, Founder of Robocre8, Nigeria",
     statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+      "The Embedded Switch App developed by ZTech Labs is a powerful tool for device control and management. It provides a smooth and intuitive interface, making embedded system interactions far more efficient and reliable."
+  },
+  {
+    picture: "/img/stock.jpg",
+    oruko: "Promise Olayimika",
+    positon: "Embedded Systems Engineer, Nigeria",
+    statement:
+      "What impressed me most was the practicality of the ESP32 IoT API. The documentation and demo were clear, making it accessible for both professionals, students and hobbyists to build real-world solutions quickly."
   },
   {
     picture: "/img/stock.jpg", 
-    oruko: "Micheal Daniel", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
+    oruko: "Favour Adeyemi", 
+    positon: "Flutter Developer & Community Manager at Layer5, Nigeria",
     statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
-  },
-  {
-    picture: "/img/stock.jpg",
-    oruko: "Adetayo Shobayo", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
-    statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
-  },
-  {
-    picture: "/img/stock.jpg", 
-    oruko: "Micheal Daniel", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
-    statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
-  },
-  {
-    picture: "/img/stock.jpg",
-    oruko: "Adetayo Shobayo", 
-    positon: "CEO, EvonMedics Limited, Lagos, Nigeria.",
-    statement:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet consequuntur excepturi magnam explicabo dolor rem non omnis, amet tempora in mollitia praesentium aliquid, natus veritatis incidunt culpa, aut dolorum!"
+      "ZTech Labs’ projects demonstrate the power of Flutter for building seamless crossplatform applications, while leveraging Rust for speed and reliability. Their approach truly blends modern frameworks with performance-driven engineering."
   },
 ];
 

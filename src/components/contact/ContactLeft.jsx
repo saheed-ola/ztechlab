@@ -61,10 +61,10 @@ const ContactLeft = () => {
         <p className="text-xs md:text-base text-gray-400 tracking-wide">
           Call Us, Write to Us, or Visit Us <br />
           We’d Love to Hear from You! <br />
-          Thank you for your interest in Carmatec and our services. Whether you
+          Thank you for your interest in ZTech Labs and our services. Whether you
           have a question, need assistance, or just want to share your thoughts,
           we’re here for you! Reach out to us via phone, email, or simply fill
-          out the form —we’ll get back to you soon.
+          out the form. We’ll get back to you soon.
         </p>
         {/* We are a dynamic team of skilled developers, designers, and support experts dedicated to providing the innovative solutions you need to achieve success. */}
 

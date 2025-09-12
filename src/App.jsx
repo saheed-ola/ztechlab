@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import ServiceId from './components/services/ServiceId'
+import ProductId from './components/products/ProductId'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services/:id" element={<ServiceId />} />
+        <Route path="/products/:id" element={<ProductId />} />
       </Routes>
     </BrowserRouter>
   )

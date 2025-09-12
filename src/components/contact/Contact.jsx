@@ -14,6 +14,7 @@ function Contact() {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
+
   // EMAIL VALIDATION
   const emailValidation = () => {
     return String(email)
@@ -21,7 +22,7 @@ function Contact() {
       .match(/^w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
   // // EMAIL VALIDATION
-  const handleSend = (e) => {
+  const handleSend = async (e) => {
     e.preventDefault();
     if (userName === "") {
       setErrMsg("Your Username is required");
@@ -34,11 +35,12 @@ function Contact() {
     else if (!emailValidation(email) === "") {
       setErrMsg("Give a valid email address !");
     }
-    else if (subject === " ") {
+    else if (subject === "") {
       setErrMsg("please provide a subject");
-    } else {
-      setSuccessMsg(`Thank your dear ${userName} Your message has been sent successfully....`);
-      setErrMsg("");
+    }
+     else {
+      // setSuccessMsg(`Thank your dear ${userName} Your message has been sent successfully....`);
+      // setErrMsg(""); 
       setUserName("");
       setPhoneNumber("");
       setEmail("");
@@ -49,9 +51,12 @@ function Contact() {
  
 
     try {
-      const res = axios.post('https://ztechlabs-server.onrender.com/send', { userName, phoneNumber, email, subject, message })
+      const res = await axios.post('https://ztechlabs-server.onrender.com/send', { userName, phoneNumber, email, subject, message })
       console.log(res)
+      setSuccessMsg(`Thank your dear ${userName} Your message has been sent successfully....`);
+
     } catch (error) {
+      setErrMsg("Couldn't send message, try again")
       console.log(error.message)
     }
   };
@@ -136,7 +141,7 @@ function Contact() {
                   rows='"4 md:rows="6"'></textarea>
               </div>
               <div className='w-full'>
-                <button onClick={handleSend}  className='w-full h-10 md:h-12 bg-blue-600 hover:bg-blue-700 rounded-lg uppercase text-xs md:text-sm tracking-wide text-white transition-colors duration-300'>SEND MESSAGE</button>
+                <button onClick={handleSend} className='w-full h-10 md:h-12 bg-blue-600 hover:bg-blue-700 rounded-lg uppercase text-xs md:text-sm tracking-wide text-white transition-colors duration-300'>SEND MESSAGE</button>
               </div>
               {errMsg && <p className='py-3 bg-black shadow-red-400 text-center text-red-500 text-base tracking-wide animate-bounce'>{errMsg}</p>}
               {successMsg && <p className='py-3 bg-green-700 shadow-red-400 text-center text-white text-base tracking-wide animate-bounce'>{successMsg}</p>}
