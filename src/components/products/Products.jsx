@@ -63,7 +63,7 @@ const Products = () => {
     >
       <TopTitle heading="Product" />
 
-      <div className="flex flex-col justify-center items-center gap-4 sml:gap-5 mt-4 sm:mt-5 mb-[150px] sml:mb-[200px] md:mb-[250px]">
+      {/* <div className="flex flex-col justify-center items-center gap-4 sml:gap-5 mt-4 sm:mt-5 mb-[150px] sml:mb-[200px] md:mb-[250px]">
         <div
           className="w-full xs:w-[90%] sml:w-[80%] md:w-[60%] p-4 xs:p-6 sm:p-8 md:p-10 rounded-xl sml:rounded-2xl md:rounded-3xl shadow-lg sml:shadow-xl md:shadow-2xl border-[1px] sml:border-[2px] text-black bg-[#c0c0c0]"
           data-aos="fade-up"
@@ -110,7 +110,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
          <ProductCard
               title="   Embedded switch Mobile Application"
               link="internet-of-things"
